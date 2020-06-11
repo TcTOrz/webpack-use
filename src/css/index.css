@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MyFont';
+    src:  url('../FZWuYRXSJW.woff2') format('woff2'),
+        url('../FZWuYRXSJW.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    font-family: 'MyFont';
+    color: grey;
+    text-align: center;
+}
+
+div {
+    background-image: url(../test.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+
+p {
+    font-family: 'MyFont';
+    font-size: x-large;
+}
